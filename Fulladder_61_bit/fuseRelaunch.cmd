@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/thanotos/Desktop/Fulladder_61_bit/tb_Adder_61bit_isim_beh.exe" -prj "/home/thanotos/Desktop/Fulladder_61_bit/tb_Adder_61bit_beh.prj" "work.tb_Adder_61bit" 

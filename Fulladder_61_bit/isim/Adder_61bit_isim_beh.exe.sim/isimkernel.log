@@ -1,0 +1,28 @@
+Command line:
+   Adder_61bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57981
+
+Mon Mar 10 09:32:25 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 186.126 Meg
+
+ Total Signals          : 400
+ Total Nets             : 245
+ Total Signal Drivers   : 123
+ Total Blocks           : 93
+ Total Primitive Blocks : 62
+ Total Processes        : 123
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 620
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 261.628 Meg
+
+Mon Mar 10 09:32:37 2025
+

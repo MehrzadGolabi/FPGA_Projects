@@ -1,0 +1,3 @@
+vhdtdtfi -lib work FA_1bit.vhd -prj Fulladder_61_bit -o FA_1bit.spl -module FA_1bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 FA_1bit.spl /home/thanotos/Desktop/Fulladder_61_bit/FA_1bit.sym 
+vhdtdtfi -prj Fulladder_61_bit -o /home/thanotos/Desktop/Fulladder_61_bit/FA_1bit.vhi -module FA_1bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work FA_1bit.vhd 
