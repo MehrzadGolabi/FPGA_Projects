@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/thanotos/Documents/FPGA/HW_3/serialadder/serial_adder.xst" -ofn "C:/Users/thanotos/Documents/FPGA/HW_3/serialadder/serial_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg676-2 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc6slx150t-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -mt off serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf 

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/thanotos/Documents/FPGA/BCD2SEG/BCD2SEG.xst" -ofn "C:/Users/thanotos/Documents/FPGA/BCD2SEG/BCD2SEG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 BCD2SEG.ngc BCD2SEG.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD2SEG_map.ncd BCD2SEG.ngd BCD2SEG.pcf 
+par -w -intstyle ise -ol high -mt off BCD2SEG_map.ncd BCD2SEG.ncd BCD2SEG.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BCD2SEG.twx BCD2SEG.ncd -o BCD2SEG.twr BCD2SEG.pcf 
+bitgen -intstyle ise -f BCD2SEG.ut BCD2SEG.ncd 

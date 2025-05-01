@@ -1,0 +1,2 @@
+vhdl work "alu_pkg.vhd"
+vhdl work "alu.vhd"

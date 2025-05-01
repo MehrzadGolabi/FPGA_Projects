@@ -1,0 +1,4 @@
+vhdl work "FAS_1bit.vhd"
+vhdl work "FA_4bit.vhd"
+vhdl work "BCD_adder.vhd"
+vhdl work "bcd_8bit_adder.vhd"

@@ -1,0 +1,4 @@
+work	"BCD_adder.vhd"
+work	"FAS_1bit.vhd"
+work	"FA_4bit.vhd"
+work	"bcd_8bit_adder.vhd"

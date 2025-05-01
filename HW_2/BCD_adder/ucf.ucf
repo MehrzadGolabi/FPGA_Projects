@@ -1,0 +1,41 @@
+# UCF file for the Posedge LogiX1 megawing board - Rev 1.2
+
+# megawing pin [] to FPGA pin Pxx map
+# -------W2--------    -----W1.A-------     ------W1.B------
+# [GND] [W3_8] P111    [GND] [ VS ] P85     P87 [ HS ]
+# [2V5] [W3_7] P112    [2V5] [ B0 ] P83     P84 [ B1 ]
+# [3V3] [W3_6] P114    [3V3] [ G0 ] P81     P82 [ G1 ]
+# [5V0] [W3_5] P115    [5V0] [ R0 ] P79     P80 [ R1 ]
+#       [W3_4] P116          [PB1 ] P75     P78 [PB0 ] [5V0]
+#       [W3_3] P117          [PB2 ] P67     P74 [PB3 ] [3V3]
+#       [W3_2] P118          [DIP7] P59     P66 [DIP6] [2V5]
+#       [W3_1] P119          [DIP4] P57     P58 [DIP5] [GND]
+# [GND] [LED7] P120    [GND] [DIP2] P55     P56 [DIP3]
+# [2V5] [LED6] P121    [2V5] [DIP1] P48     P51 [DIP0]
+# [3V3] [LED5] P123    [3V3] [an0 ] P46     P47 [seg0]
+# [5V0] [LED4] P124    [5V0] [seg5] P44     P45 [an1 ]
+#       [LED3] P126          [an2 ] P41     P43 [seg1] [5V0]
+#       [LED2] P127          [seg4] P35     P40 [seg3] [3V3]
+#       [LED1] P131          [seg7] P33     P34 [seg2] [2V5]
+#       [LED0] P132          [seg6] P30     P32 [an3 ] [GND]
+
+
+# dip-switches
+NET "Addend[0]"    LOC = P51;
+NET "Addend[1]"    LOC = P48;
+NET "Addend[2]"    LOC = P55;
+NET "Addend[3]"    LOC = P56;
+NET "Addend[4]"    LOC = P57;
+NET "Addend[5]"    LOC = P58;
+NET "Addend[6]"    LOC = P66;
+NET "Addend[7]"    LOC = P59;
+
+# LEDs
+NET "Sum[7]"  	LOC = P120;
+NET "Sum[6]"  	LOC = P121;
+NET "Sum[5]"  	LOC = P123;
+NET "Sum[4]"  	LOC = P124;
+NET "Sum[3]"  	LOC = P126;
+NET "Sum[2]"  	LOC = P127;
+NET "Sum[1]"  	LOC = P131;
+NET "Sum[0]"  	LOC = P132;

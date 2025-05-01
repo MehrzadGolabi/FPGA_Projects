@@ -1,0 +1,3 @@
+work	"arithmetic_unit.vhd"
+work	"full_adder.vhd"
+work	"mux4to1.vhd"

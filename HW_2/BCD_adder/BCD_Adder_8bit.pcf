@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Apr 18 19:34:20 2025
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Addend<0>" LOCATE = SITE "P51" LEVEL 1;
+COMP "Addend<1>" LOCATE = SITE "P48" LEVEL 1;
+COMP "Addend<2>" LOCATE = SITE "P55" LEVEL 1;
+COMP "Addend<3>" LOCATE = SITE "P56" LEVEL 1;
+COMP "Addend<4>" LOCATE = SITE "P57" LEVEL 1;
+COMP "Addend<5>" LOCATE = SITE "P58" LEVEL 1;
+COMP "Addend<6>" LOCATE = SITE "P66" LEVEL 1;
+COMP "Addend<7>" LOCATE = SITE "P59" LEVEL 1;
+COMP "Sum<0>" LOCATE = SITE "P132" LEVEL 1;
+COMP "Sum<1>" LOCATE = SITE "P131" LEVEL 1;
+COMP "Sum<2>" LOCATE = SITE "P127" LEVEL 1;
+COMP "Sum<3>" LOCATE = SITE "P126" LEVEL 1;
+COMP "Sum<4>" LOCATE = SITE "P124" LEVEL 1;
+COMP "Sum<5>" LOCATE = SITE "P123" LEVEL 1;
+COMP "Sum<6>" LOCATE = SITE "P121" LEVEL 1;
+COMP "Sum<7>" LOCATE = SITE "P120" LEVEL 1;
+SCHEMATIC END;
+

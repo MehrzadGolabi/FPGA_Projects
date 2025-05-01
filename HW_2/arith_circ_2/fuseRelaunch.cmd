@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/arith_circ_2/tb_arith_unit_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/arith_circ_2/tb_arith_unit_beh.prj" "work.tb_arith_unit" 

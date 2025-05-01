@@ -1,0 +1,2 @@
+vhdl work "BCD2SEG.vhd"
+vhdl work "tb_BCD2SEG.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/HW_3/serialadder/serial_adder_tb8_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/HW_3/serialadder/serial_adder_tb8_beh.prj" "work.serial_adder_tb8" 
