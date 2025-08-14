@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/thanotos/Desktop/FPGA_HW4_400249049/ECHO/echo.xst" -ofn "C:/Users/thanotos/Desktop/FPGA_HW4_400249049/ECHO/echo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 echo.ngc echo.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o echo_map.ncd echo.ngd echo.pcf 
+par -w -intstyle ise -ol high -mt off echo_map.ncd echo.ncd echo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml echo.twx echo.ncd -o echo.twr echo.pcf 

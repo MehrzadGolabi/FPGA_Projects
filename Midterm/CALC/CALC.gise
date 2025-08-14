@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CALC.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="BDCADDR_400249032.vhi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CALC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CALC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CALC.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CALC_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CALC_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="CALC_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Sev_MUX.vhi"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="pb_debounce.vhi"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1748284934" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1748284934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748285838" xil_pn:in_ck="5273754940318600947" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1748285838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BCD_Sev.vhd"/>
+      <outfile xil_pn:name="BDCADDR_400249032.vhd"/>
+      <outfile xil_pn:name="CALC.vhd"/>
+      <outfile xil_pn:name="Four-bit_FA_400249032.vhd"/>
+      <outfile xil_pn:name="Full_Adder_400249032.vhd"/>
+      <outfile xil_pn:name="PB_debounced.vhd"/>
+      <outfile xil_pn:name="Sev_MUX.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1748284934" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-142935458066281674" xil_pn:start_ts="1748284934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748284934" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2683341651848475724" xil_pn:start_ts="1748284934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748284934" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4053167605363326435" xil_pn:start_ts="1748284934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748285838" xil_pn:in_ck="5273754940318600947" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1748285838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BCD_Sev.vhd"/>
+      <outfile xil_pn:name="BDCADDR_400249032.vhd"/>
+      <outfile xil_pn:name="CALC.vhd"/>
+      <outfile xil_pn:name="Four-bit_FA_400249032.vhd"/>
+      <outfile xil_pn:name="Full_Adder_400249032.vhd"/>
+      <outfile xil_pn:name="PB_debounced.vhd"/>
+      <outfile xil_pn:name="Sev_MUX.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1748285843" xil_pn:in_ck="5273754940318600947" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6041797161262646207" xil_pn:start_ts="1748285838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CALC_beh.prj"/>
+      <outfile xil_pn:name="CALC_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1748285844" xil_pn:in_ck="7773155680447137506" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2956271537789840588" xil_pn:start_ts="1748285843">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CALC_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

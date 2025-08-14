@@ -1,0 +1,2 @@
+vhdl work "FP_ADDER.vhd"
+vhdl work "FP_ADDER_TB.vhd"

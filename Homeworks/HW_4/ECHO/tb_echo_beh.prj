@@ -1,0 +1,4 @@
+vhdl work "UART_TX.vhd"
+vhdl work "UART_RX.vhd"
+vhdl work "ECHO.vhd"
+vhdl work "TB_ECHO.vhd"

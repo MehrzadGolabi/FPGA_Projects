@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Alireza/Desktop/CALC/Sev_MUX/Sev_MUX_isim_beh.exe" -prj "C:/Users/Alireza/Desktop/CALC/Sev_MUX/Sev_MUX_beh.prj" "work.Sev_MUX" 

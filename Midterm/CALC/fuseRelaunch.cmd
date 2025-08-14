@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Alireza/Desktop/CALC/CALC/CALC_isim_beh.exe" -prj "C:/Users/Alireza/Desktop/CALC/CALC/CALC_beh.prj" "work.CALC" 

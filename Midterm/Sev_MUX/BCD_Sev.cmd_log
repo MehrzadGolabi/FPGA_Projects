@@ -1,0 +1,1 @@
+vhdtdtfi -prj Sev_MUX -o C:/Users/Alireza/Desktop/CALC/Sev_MUX/BCD_Sev.vhi -module BCD_Sev -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BCD_Sev.vhd 

@@ -1,0 +1,31 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Alireza/Desktop/CALC/CALC/CALC_isim_beh.exe -prj C:/Users/Alireza/Desktop/CALC/CALC/CALC_beh.prj work.CALC 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/Full_Adder_400249032.vhd" into library work
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/Four-bit_FA_400249032.vhd" into library work
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/BCD_Sev.vhd" into library work
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/Sev_MUX.vhd" into library work
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/PB_debounced.vhd" into library work
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/BDCADDR_400249032.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Alireza/Desktop/CALC/CALC/BDCADDR_400249032.vhd" Line 45: Actual for formal port b is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Alireza/Desktop/CALC/CALC/CALC.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity pb_debounce [pb_debounce_default]
+Compiling architecture behavioral of entity BCD_Sev [bcd_sev_default]
+Compiling architecture behavioral of entity Sev_MUX [sev_mux_default]
+Compiling architecture behavioral of entity Full_Adder_400249032 [full_adder_400249032_default]
+Compiling architecture behavioral of entity Four_bit_FA_400249032 [four_bit_fa_400249032_default]
+Compiling architecture behavioral of entity BDCADDR_400249032 [bdcaddr_400249032_default]
+Compiling architecture behavioral of entity calc
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 16 VHDL Units
+Built simulation executable C:/Users/Alireza/Desktop/CALC/CALC/CALC_isim_beh.exe
+Fuse Memory Usage: 35076 KB
+Fuse CPU Usage: 670 ms

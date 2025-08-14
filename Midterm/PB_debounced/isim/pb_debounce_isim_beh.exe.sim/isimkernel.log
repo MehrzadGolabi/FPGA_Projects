@@ -1,0 +1,28 @@
+Command line:
+   pb_debounce_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49314
+
+Mon May 26 19:51:59 2025
+
+
+ Elaboration Time: 0.0936 sec
+
+ Current Memory Usage: 672.522 Meg
+
+ Total Signals          : 5
+ Total Nets             : 19
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 502
+
+ Total Simulation Time: 2.63642 sec
+
+ Current Memory Usage: 672.522 Meg
+
+Mon May 26 19:56:52 2025
+

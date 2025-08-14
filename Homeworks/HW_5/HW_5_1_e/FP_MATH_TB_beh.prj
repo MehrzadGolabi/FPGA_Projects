@@ -1,0 +1,3 @@
+vhdl work "FP_MULTIPLIER.vhd"
+vhdl work "FP_DIVIDER.vhd"
+vhdl work "FP_MATH_TB.vhd"

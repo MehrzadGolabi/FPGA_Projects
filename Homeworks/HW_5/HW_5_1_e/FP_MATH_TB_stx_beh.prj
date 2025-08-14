@@ -1,0 +1,3 @@
+vhdl isim_temp "FP_MULTIPLIER.vhd"
+vhdl isim_temp "FP_DIVIDER.vhd"
+vhdl isim_temp "FP_MATH_TB.vhd"

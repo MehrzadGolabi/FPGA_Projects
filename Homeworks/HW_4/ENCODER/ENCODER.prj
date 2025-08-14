@@ -1,0 +1,2 @@
+vhdl work "ENCODER.vhd"
+vhdl work "UART_TX.vhd"

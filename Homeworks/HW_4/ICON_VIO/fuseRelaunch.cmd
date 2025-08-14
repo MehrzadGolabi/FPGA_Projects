@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Alireza/Desktop/FPGA/ICON_VIO/ICON_VIO_isim_beh.exe" -prj "C:/Users/Alireza/Desktop/FPGA/ICON_VIO/ICON_VIO_beh.prj" "work.ICON_VIO" 
