@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/USR/tb_universal_shift_re_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/USR/tb_universal_shift_re_beh.prj" "work.tb_universal_shift_re" 

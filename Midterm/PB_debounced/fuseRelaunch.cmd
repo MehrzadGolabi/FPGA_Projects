@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Alireza/Desktop/CALC/PB_debounced/pb_debounce_isim_beh.exe" -prj "C:/Users/Alireza/Desktop/CALC/PB_debounced/pb_debounce_beh.prj" "work.pb_debounce" 

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/edge_trig_d_ff/tb_D_FF_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/edge_trig_d_ff/tb_D_FF_beh.prj" "work.tb_D_FF" 

@@ -1,3 +1,0 @@
-vhdl work "mux4.vhd"
-vhdl work "full_adder.vhd"
-vhdl work "arith_unit.vhd"

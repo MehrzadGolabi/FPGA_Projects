@@ -1,7 +1,0 @@
-vhdl work "Full_Adder_400249032.vhd"
-vhdl work "Four-bit_FA_400249032.vhd"
-vhdl work "BCD_Sev.vhd"
-vhdl work "Sev_MUX.vhd"
-vhdl work "PB_debounced.vhd"
-vhdl work "BDCADDR_400249032.vhd"
-vhdl work "CALC.vhd"

@@ -1,2 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/thanotos/Documents/FPGA/hw-3-1/D_FF.xst" -ofn "C:/Users/thanotos/Documents/FPGA/hw-3-1/D_FF.syr" 
-vhdtdtfi -prj edge_trig_d_ff -o C:/Users/thanotos/Documents/FPGA/edge_trig_d_ff/D_FF.vhi -module D_FF -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work D_FF.vhd 

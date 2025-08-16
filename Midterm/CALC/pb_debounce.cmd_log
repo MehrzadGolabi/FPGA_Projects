@@ -1,1 +1,0 @@
-vhdtdtfi -prj CALC -o C:/Users/Alireza/Desktop/CALC/CALC/pb_debounce.vhi -module pb_debounce -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PB_debounced.vhd 

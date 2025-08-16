@@ -1,1 +1,0 @@
-vhdtdtfi -prj CALC -o C:/Users/Alireza/Desktop/CALC/CALC/Sev_MUX.vhi -module Sev_MUX -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BCD_Sev.vhd -lib work Sev_MUX.vhd 

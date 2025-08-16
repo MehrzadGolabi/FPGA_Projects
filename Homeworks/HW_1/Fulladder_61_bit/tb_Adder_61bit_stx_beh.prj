@@ -1,4 +1,0 @@
-vhdl isim_temp "FA_1bit.vhd"
-vhdl isim_temp "FA_4bit.vhd"
-vhdl isim_temp "Adder_61bit.vhd"
-vhdl isim_temp "tb_Adder_61bit.vhd"

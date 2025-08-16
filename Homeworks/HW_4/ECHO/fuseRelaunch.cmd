@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Desktop/FPGA_HW4_400249049/ECHO/tb_echo_isim_beh.exe" -prj "C:/Users/thanotos/Desktop/FPGA_HW4_400249049/ECHO/tb_echo_beh.prj" "work.tb_echo" 

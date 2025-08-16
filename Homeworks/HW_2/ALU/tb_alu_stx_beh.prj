@@ -1,3 +1,0 @@
-vhdl isim_temp "alu_pkg.vhd"
-vhdl isim_temp "alu.vhd"
-vhdl isim_temp "tb_alu.vhd"

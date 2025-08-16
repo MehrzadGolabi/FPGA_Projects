@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/ALU/tb_alu_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/ALU/tb_alu_beh.prj" "work.tb_alu" 

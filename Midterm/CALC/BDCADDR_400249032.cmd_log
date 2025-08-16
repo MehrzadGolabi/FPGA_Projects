@@ -1,1 +1,0 @@
-vhdtdtfi -prj CALC -o C:/Users/Alireza/Desktop/CALC/CALC/BDCADDR_400249032.vhi -module BDCADDR_400249032 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Full_Adder_400249032.vhd -lib work Four-bit_FA_400249032.vhd -lib work BDCADDR_400249032.vhd 

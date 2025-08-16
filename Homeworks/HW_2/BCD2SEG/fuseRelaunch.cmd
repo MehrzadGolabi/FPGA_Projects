@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/BCD2SEG/tb_BCD2SEG_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/BCD2SEG/tb_BCD2SEG_beh.prj" "work.tb_BCD2SEG" 

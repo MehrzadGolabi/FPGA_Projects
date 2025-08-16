@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/thanotos/floating_point/tamrin_5_1_d/FP_ADDER_TB_isim_beh.exe" -prj "/home/thanotos/floating_point/tamrin_5_1_d/FP_ADDER_TB_beh.prj" "work.FP_ADDER_TB" 

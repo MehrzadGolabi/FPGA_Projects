@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\thanotos\Documents\FPGA\BCD_adder\BCD_Adder_8bit.ncd
-OUTFILE=C:\Users\thanotos\Documents\FPGA\BCD_adder\BCD_Adder_8bit.bit
-FAMILY=Spartan6
-PART=xc6slx9-2tqg144
-WORKINGDIR=C:\Users\thanotos\Documents\FPGA\BCD_adder
-LICENSE=WebPack
-USER_INFO=__0_0_0

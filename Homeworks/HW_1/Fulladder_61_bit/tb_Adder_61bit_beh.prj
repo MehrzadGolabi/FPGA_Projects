@@ -1,4 +1,0 @@
-vhdl work "FA_1bit.vhd"
-vhdl work "FA_4bit.vhd"
-vhdl work "Adder_61bit.vhd"
-vhdl work "tb_Adder_61bit.vhd"

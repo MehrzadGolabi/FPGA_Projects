@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/thanotos/Documents/FPGA/BCD_adder/testbench_isim_beh.exe" -prj "C:/Users/thanotos/Documents/FPGA/BCD_adder/testbench_beh.prj" "work.testbench" 

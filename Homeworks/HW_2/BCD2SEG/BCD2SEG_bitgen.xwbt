@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\thanotos\Documents\FPGA\BCD2SEG\BCD2SEG.ncd
-OUTFILE=C:\Users\thanotos\Documents\FPGA\BCD2SEG\BCD2SEG.bit
-FAMILY=Spartan6
-PART=xc6slx9-2tqg144
-WORKINGDIR=C:\Users\thanotos\Documents\FPGA\BCD2SEG
-LICENSE=WebPack
-USER_INFO=__0_0_0
