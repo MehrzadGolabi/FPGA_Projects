@@ -1,3 +1,0 @@
-vhdl work "ipcore_dir/ICON_IP.vhd"
-vhdl work "ipcore_dir/VIO_IP.vhd"
-vhdl work "ICON_VIO.vhd"

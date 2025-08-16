@@ -51,15 +51,12 @@ architecture Behavioral of Adder_61bit is
     );
   end component;
 
-  -- We need to chain 15 four-bit adders (covering bits 0..59) plus one 1-bit adder for bit 60, for a total of 61 bits.
+  -- We need to chain 15 four-bit adders for a total of 61 bits.
   signal carry : STD_LOGIC_VECTOR(15 downto 0);
 
 begin
-
-  -- Initial carry in
   carry(0) <= '0';
 
-  -- Generate 15 blocks of 4-bit addition
   GEN_4BIT: for i in 0 to 14 generate
     FA4_inst : FA_4bit
       port map(
