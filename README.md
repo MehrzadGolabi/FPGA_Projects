@@ -10,7 +10,7 @@ Core VHDL examples and implementations:
 - **base_converter.vhd** - Contains hex, octal, and BCD converters using algorithms like Double-Dabble for BCD conversion.
 
 #### ALU Components
-- **ALU/alu.vhd** - 16-bit ALU with arithmetic, logical, and mathematical operations including FSM-based stepper motor control.
+- **ALU/alu.vhd** - 16-bit ALU with arithmetic, logical, and mathematical operations.
 - **ALU/alu_pkg.vhd** - Package containing helper functions for trigonometric and exponential operations using fixed-point arithmetic.
 
 #### BRAM Applications
