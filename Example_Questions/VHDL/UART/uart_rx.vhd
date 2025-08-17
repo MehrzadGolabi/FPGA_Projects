@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
------------------------------------------------------------------------------
+
 -- UART Receiver ------------------------------------------------------------
 entity uart_rx is
 	generic (
@@ -19,7 +19,6 @@ entity uart_rx is
 end uart_rx;
 
 -----------------------------------------------------------------------------
--- Implemenattion -----------------------------------------------------------
 architecture rtl of uart_rx is
 
 constant halfbit : integer := fullbit / 2; 
