@@ -26,7 +26,7 @@ begin
     process(temp_sum, correction_needed, binary_sum)
     begin
         if correction_needed = '1' then
-            -- تصحیح BCD: اضافه کردن 6
+            -- BCD correction: adding 6
             Sum <= std_logic_vector(to_unsigned((binary_sum + 6) mod 16, 4));
             Cout <= '1';
         else
@@ -38,7 +38,7 @@ begin
 end Behavioral;
 
 -- =======================================================
--- جمع‌کننده BCD دو رقمی اصلی
+-- Main 2-digit BCD adder
 -- =======================================================
 
 library IEEE;
@@ -103,7 +103,7 @@ begin
 end Structural;
 
 -- =======================================================
--- نسخه کامل با نمایش 7-Segment
+-- Complete version with 7-Segment display
 -- =======================================================
 
 library IEEE;
@@ -216,28 +216,28 @@ begin
     
     test_process: process
     begin
-        -- آزمایش 1: 25 + 34 = 59
+        -- test 1: 25 + 34 = 59
         A0_test <= "0010"; A1_test <= "0101"; -- 25
         B0_test <= "0011"; B1_test <= "0100"; -- 34  
         Cin_test <= '0';
         wait for 10 ns;
         
-        -- آزمایش 2: 67 + 28 = 95
+        -- test 2: 67 + 28 = 95
         A0_test <= "0110"; A1_test <= "0111"; -- 67
         B0_test <= "0010"; B1_test <= "1000"; -- 28
         Cin_test <= '0';
         wait for 10 ns;
         
-        -- آزمایش 3: 89 + 45 = 134 (overflow)
+        -- test 3: 89 + 45 = 134 (overflow)
         A0_test <= "1000"; A1_test <= "1001"; -- 89
         B0_test <= "0100"; B1_test <= "0101"; -- 45
         Cin_test <= '0';
         wait for 10 ns;
         
-        -- آزمایش 4: 99 + 01 + Cin = 101 (carry test)
+        -- test 4: 99 + 01 + Cin = 101 (carry test)
         A0_test <= "1001"; A1_test <= "1001"; -- 99
         B0_test <= "0000"; B1_test <= "0001"; -- 01
-        Cin_test <= '1';  -- با carry
+        Cin_test <= '1';  -- with carry
         wait for 10 ns;
         
         wait;

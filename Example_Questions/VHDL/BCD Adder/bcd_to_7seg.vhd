@@ -39,7 +39,7 @@ begin
 end Behavioral;
 
 -- =======================================================
--- Architecture 2: استفاده از With-Select Statement
+-- Architecture 2: Using With-Select Statement
 -- =======================================================
 
 architecture WithSelect of BCD_to_7Segment is
@@ -59,7 +59,7 @@ begin
 end WithSelect;
 
 -- =======================================================
--- TestBench برای آزمایش مبدل
+-- TestBench
 -- =======================================================
 
 library IEEE;

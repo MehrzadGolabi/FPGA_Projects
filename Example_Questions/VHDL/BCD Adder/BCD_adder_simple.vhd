@@ -27,6 +27,10 @@ begin
         Sum <= std_logic_vector(temp_sum(3 downto 0));
     end process;
 end Behavioral;
+
+
+--===============================================================
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
