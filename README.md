@@ -7,7 +7,7 @@ FPGA projects and homeworks, spring of 2025
 Core VHDL examples and implementations:
 
 #### Base Converters
-- **base_converter.vhd** - Contains hex, octal, and BCD converters using efficient algorithms including Double-Dabble for BCD conversion.
+- **base_converter.vhd** - Contains hex, octal, and BCD converters using algorithms like Double-Dabble for BCD conversion.
 
 #### ALU Components
 - **ALU/alu.vhd** - 16-bit ALU with arithmetic, logical, and mathematical operations including FSM-based stepper motor control.
