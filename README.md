@@ -63,7 +63,7 @@ Core VHDL examples and implementations:
 - **serial_adder/serial_adder_tb.vhd** - Testbench for serial adder with comprehensive test cases.
 
 #### Seven Segment Displays
-- **Seven Segment Mux/BCD_Sev.vhd** - BCD to 7-segment converter with multiplexing capability.
+- **Seven Segment Mux/BCD_Sev.vhd** - BCD to 7-segment converter.
 - **Seven Segment Mux/Sev_MUX.vhd** - 7-segment display multiplexer for multi-digit displays.
 
 #### Stepper Motor Control
