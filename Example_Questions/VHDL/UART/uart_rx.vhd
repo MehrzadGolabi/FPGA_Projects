@@ -34,11 +34,11 @@ begin
 proc: process(clk, reset) is
 begin
 	if reset='1' then
-		bitcount <= 0;
-		count    <= 0;
-		error    <= '0';
-		avail    <= '0';
-	elsif clk'event and clk='1' then
+		bitcount <= 0; --integer
+		count    <= 0; --integer
+		error    <= '0'; --std_logic
+		avail    <= '0'; --std_logic
+	elsif clk'event and clk='1' then --could have used if rising_edge(clk)
 		if clear='1' then 
 			error <= '0';
 			avail <= '0';
